@@ -9,5 +9,5 @@ const bubbleSort = (numbers) => {
   return numbers;
 };
 
-nums = [2, 1, 5, 3, 4, 8, 12, 7];
+nums = [...Array(20).keys()].map(() => Math.floor(Math.random() * 100));
 console.log(bubbleSort(nums));
