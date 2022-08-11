@@ -11,5 +11,5 @@ const selectionSort = (numbers) => {
   return numbers;
 };
 
-nums = [...Array(20).keys()].map(() => Math.floor(Math.random() * 100));
+const nums = [...Array(20).keys()].map(() => Math.floor(Math.random() * 100));
 console.log(selectionSort(nums));
