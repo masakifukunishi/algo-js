@@ -37,6 +37,7 @@ class LinkedList {
       currentNode = currentNode.next;
     }
   }
+
   remove(data) {
     let currentNode = this.head;
     if (currentNode && currentNode.data === data) {
